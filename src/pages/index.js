@@ -5,6 +5,7 @@ import profilePic from "../../public/images/profile/profile-removebg.png"
 import AnimateHeading from '@/components/Animate/AnimateHeading'
 import Link from 'next/link'
 import LinkArrow from '@/components/IconComponents/LinkArrow'
+import HireMe from '@/components/HireMe'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
             {/* Heading */}
             <div className=' w-1/2 flex flex-col items-center self-center '>
               {/* Heading intro */}
-              <AnimateHeading text={`I'm software engineer gradute with passion of problem-sloving.`} className=" text-5xl text-left "/>
+              <AnimateHeading text={`I'm software engineer gradute with passion of problem-sloving.`} className=" !text-5xl !text-left "/>
               <p className=' my-4 text-base font-medium '> As a skilled full-stack developer, I am dedicated to turning ideas into innovative applications. 
                 Explore my latest projects and articles, showcasing my expertise in React.js and web development.
               </p>
@@ -44,6 +45,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <HireMe/>
       </main>
     </>
   )
