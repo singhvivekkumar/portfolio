@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HomeLayout = ({ className, children}) => {
+const Layout = ({ className, children}) => {
   return (
 	<div className={` w-full h-full inline-block z-0 bg-light p-32 ${className}`}>
 		{children}
@@ -8,4 +8,4 @@ const HomeLayout = ({ className, children}) => {
   )
 }
 
-export default HomeLayout;
+export default Layout;
