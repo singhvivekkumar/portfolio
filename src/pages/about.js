@@ -7,6 +7,7 @@ import profilePhoto from "../../public/images/profile/profile-pic-2.png";
 import AnimatedNumbers from "@/components/Animate/AnimatedNumbers";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 
 const about = () => {
 	return (
@@ -88,6 +89,9 @@ const about = () => {
 
 					{/* Experience */}
 					<Experience />
+
+					{/* Education  */}
+					<Education/>
 				</Layout>
 			</main>
 		</>
