@@ -6,6 +6,7 @@ import React from "react";
 import profilePhoto from "../../public/images/profile/profile-pic-2.png";
 import AnimatedNumbers from "@/components/Animate/AnimatedNumbers";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
 
 const about = () => {
 	return (
@@ -84,6 +85,9 @@ const about = () => {
 
 					{/* Skills section */}
 					<Skills/>
+
+					{/* Experience */}
+					<Experience />
 				</Layout>
 			</main>
 		</>
