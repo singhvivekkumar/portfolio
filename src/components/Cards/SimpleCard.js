@@ -2,13 +2,19 @@ import Link from 'next/link';
 import React from 'react'
 import Image from 'next/image';
 import GithubIcon from '../IconComponents/GithubIcon';
+import { motion } from "framer-motion";
+
+// to use a component in framer motion... make it 
+const FramerImage = motion(Image);
 
 const SimpleCard = ({ type, title, img, link, github}) => {
   return (
 	<article className=' relative w-full flex flex-col items-center justify-center p-8 rounded-3xl border border-solid border-dark bg-light shadow-2xl'>
 		<div className=" absolute top-0 -right-3 rounded-[2rem] rounded-br-[1.7rem] h-[103%] w-[102%] bg-dark -z-10" />
-		<Link href={link} target="_blank" className=' w-full cursor-pointer overflow-hidden rounded-lg'>
-			<Image alt={title} src={img} className=' w-full h-auto' />
+		<Link href={link} target="_blank" className=' w-full cursor-pointer inline-block overflow-hidden rounded-lg'>
+			<FramerImage alt={title} src={img} className=' w-full h-auto' 
+				whileHover={{scale:1.05}}
+				transition={{duration:0.3}}/>
 		</Link>
 
 		<div className=' w-full flex flex-col items-start justify-between mt-4'>

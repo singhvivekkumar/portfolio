@@ -8,6 +8,10 @@ import AnimatedNumbers from "@/components/Animate/AnimatedNumbers";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import { motion } from "framer-motion";
+
+// to use a component in framer motion... make it 
+const FramerImage = motion(Image);
 
 const about = () => {
 	return (
@@ -58,12 +62,14 @@ const about = () => {
 						</div>
 
 						{/* your profile Image */}
-						<div className=" col-span-3 min-h-full rounded-2xl border-2 border-solid border-dark p-6 bg-light relative">
+						<div className=" col-span-3 min-h-full  rounded-2xl border-2 border-solid border-dark p-6 bg-light relative">
 							<div className=" absolute top-0 -right-3 rounded-3xl h-[103%] w-[102%] bg-dark -z-10" />
-							<Image
+							<FramerImage
 								src={profilePhoto}
 								alt="Vivek Singh"
 								className=" h-auto rounded-2xl bg-gradient-to-tr from-cyan-300 p-4 pb-0 via-orange-200 to-pink-300"
+								whileHover={{scale:1.05}}
+								transition={{duration:1.7, delay:0.3}}
 							/>
 						</div>
 
