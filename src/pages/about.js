@@ -22,7 +22,7 @@ const about = () => {
 				<meta name="description" content="any discription"></meta>
 			</Head>
 			{/* content */}
-			<main className=" flex flex-col items-center justify-center">
+			<main className=" flex flex-col items-center justify-center dark:text-light ">
 				<Layout className="pt-10">
 					{/* Heading */}
 					<AnimateHeading
@@ -34,7 +34,7 @@ const about = () => {
 					<div className=" w-full grid grid-cols-8 gap-16 ">
 						{/* introduction about self */}
 						<div className=" col-span-3 flex flex-col items-center justify-center gap-4 ">
-							<h1 className=" text-lg font-bold uppercase text-dark/70">
+							<h1 className=" text-lg font-bold uppercase text-dark/70 dark:text-light/75">
 								Introduction
 							</h1>
 							<p className=" font-medium ">
@@ -75,17 +75,17 @@ const about = () => {
 
 						{/* number which make impact */}
 						<div className=" col-span-2 flex flex-col items-end justify-between ">
-							<div className=" flex flex-col items-end justify-center">
-								<span className=" inline-block text-7xl font-bold"><AnimatedNumbers value={50}/>+</span>
-								<h1 className=" text-xl font-medium text-dark/75 capitalize">client</h1>
+							<div className=" flex flex-col items-end justify-center ">
+								<span className=" inline-block text-7xl font-bold dark:text-light/75"><AnimatedNumbers value={50}/>+</span>
+								<h1 className=" text-xl font-medium text-dark/75 dark:text-light/75  capitalize">client</h1>
+							</div>
+							<div className=" flex flex-col items-end justify-center ">
+								<span className=" inline-block text-7xl dark:text-light/75 font-bold"><AnimatedNumbers value={40}/>+</span>
+								<h1 className=" text-xl font-medium text-dark/75 dark:text-light/75 capitalize">client</h1>
 							</div>
 							<div className=" flex flex-col items-end justify-center">
-								<span className=" inline-block text-7xl font-bold"><AnimatedNumbers value={40}/>+</span>
-								<h1 className=" text-xl font-medium text-dark/75 capitalize">client</h1>
-							</div>
-							<div className=" flex flex-col items-end justify-center">
-								<span className=" inline-block text-7xl font-bold"><AnimatedNumbers value={570}/>+</span>
-								<h1 className=" text-xl font-medium text-dark/75 capitalize">client</h1>
+								<span className=" inline-block text-7xl font-bold dark:text-light/75"><AnimatedNumbers value={570}/>+</span>
+								<h1 className=" text-xl font-medium text-dark/75 dark:text-light/75 capitalize">client</h1>
 							</div>
 						</div>
 					</div>
