@@ -13,7 +13,7 @@ const useThemeSwitcher = () => {
 
 		// get the data from local storage by getItem()
 		const userPrefer = window.localStorage.getItem("theme");
-		console.log("this start user theme",userPrefer)
+		console.log("this start user theme",userPrefer);
 
 		const handleChange = () => {
 			// logic for checking any user preference(configuration and setting)
@@ -44,17 +44,21 @@ const useThemeSwitcher = () => {
 		//on first load check all condition
 		handleChange();
 
-		//add event listner
+		//add event listener
 		mediaQuery.addEventListener("change", handleChange);
 
-		//remove eventlistner or during unmount phase react component
+		//remove eventlistener or during unmount phase react component
 		return () => mediaQuery.removeEventListener("change", handleChange);
 	}, []);
 
 	// update the of value of local stroage 
 	useEffect( ()=> {
-		console.log("direct inter")
-		if (mode === "dark") {
+		// early termination
+		if ( mode === "") {
+			return;
+		}
+		console.log(" inter in mode changer : ", mode);
+		if (mode === "dark" ) {
 			window.localStorage.setItem("theme", "dark");
 			document.documentElement.classList.add("dark");
 		} else {
