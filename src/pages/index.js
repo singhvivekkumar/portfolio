@@ -41,7 +41,9 @@ export default function Home() {
 
             {/* profile photo */}
             <div className=' w-1/2'>
-              <Image alt='Vivek Singh' className='w-full h-auto dark:brightness-[0.9] dark:contrast-[1.2] ' src={profilePic}/>
+              <Image alt='Vivek Singh' className='w-full h-auto dark:brightness-[0.9] dark:contrast-[1.2] ' src={profilePic} 
+              priority 
+              sizes="(min-width: 768px) 100vw, (min-width: 1200px) 50vw, 50vw"/>
             </div>
           </div>
         </Layout>

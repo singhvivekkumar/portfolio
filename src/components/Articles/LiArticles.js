@@ -34,7 +34,9 @@ const MovingImg = ({ title, img, link }) => {
 			<FramerImage
 				style={{ x:x, y:y}}
 				transition={{ duration: 0.5}}
-			 ref={imgRef} alt={`${title} article image`} src={img} className=" z-10 hidden w-96 h-auto absolute rounded-lg translate-x-[-50%]"
+			 	ref={imgRef} alt={`${title} article image`} src={img} className=" z-10 hidden w-96 h-auto absolute rounded-lg translate-x-[-50%]"
+			 	priority 
+			 	sizes="(min-width: 768px) 100vw, (min-width: 1200px) 50vw, 50vw"
 			/>
 		</Link>
 	);

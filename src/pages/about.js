@@ -70,6 +70,8 @@ const about = () => {
 								className=" h-auto rounded-2xl p-4 pb-0 bg-gradient-to-tr from-cyan-300 dark:from-dark via-orange-200 to-pink-300 dark:to-slate-700"
 								whileHover={{scale:1.05}}
 								transition={{duration:1.7, delay:0.3}}
+								priority 
+             			 		sizes="(min-width: 768px) 100vw, (min-width: 1200px) 50vw, 50vw"
 							/>
 						</div>
 

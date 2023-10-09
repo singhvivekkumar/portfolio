@@ -15,7 +15,9 @@ const FeatureCard = ({ type, title, summary, img, link, github}) => {
 		<Link href={link} target="_blank" className=' w-1/2 cursor-pointer inline-block overflow-hidden rounded-lg'>
 			<FramerImage alt={title} src={img} className=' w-full h-auto'
 				whileHover={{scale:1.05}}
-				transition={{duration:0.3}} />
+				transition={{duration:0.3}}
+				priority 
+            	sizes="(min-width: 768px) 100vw, (min-width: 1200px) 50vw, 50vw" />
 		</Link>
 
 		<div className=' w-1/2 flex flex-col items-start justify-between pl-6'>

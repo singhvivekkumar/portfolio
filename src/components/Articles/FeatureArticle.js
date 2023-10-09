@@ -15,6 +15,8 @@ const FeatureArticle = ({img , title, time, summary, link }) => {
 			<FramerImage alt={title} src={img} className=' w-full h-auto' 
 				whileHover={{scale:1.05}}
 				transition={{duration:0.3}}
+				priority 
+                sizes="(min-width: 768px) 100vw, (min-width: 1200px) 50vw, 50vw"
 			/>
 		</Link>
 		<Link href={link} target="_blank">
