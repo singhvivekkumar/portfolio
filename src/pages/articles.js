@@ -19,7 +19,7 @@ const articles = () => {
 				<title>VS | Articles Page</title>
 				<meta name="description" content="any discription"></meta>
 			</Head>
-			<main className=" w-full mb-16 flex flex-col justify-center items-center overflow-hidden">
+			<main className=" w-full mb-16 flex flex-col justify-center items-center overflow-hidden dark:text-light">
 				<Layout className=" pt-16 ">
 					<AnimateHeading
 						text="This is articles list"

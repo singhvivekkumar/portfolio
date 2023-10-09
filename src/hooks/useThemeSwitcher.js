@@ -9,17 +9,16 @@ const useThemeSwitcher = () => {
 	useEffect(() => {
 		// The Window interface's matchMedia() method returns a new MediaQueryList object that can then be used to determine if the document matches the media query string, as well as to monitor the document to detect when it matches (or stops matching) that media query.
 		const mediaQuery = window.matchMedia(preferDarkQuery);
-		console.log("prefers color media", mediaQuery);
+		// console.log("prefers color media", mediaQuery);
 
 		// get the data from local storage by getItem()
 		const userPrefer = window.localStorage.getItem("theme");
-		console.log("this start user theme",userPrefer);
+		// console.log("this start user theme",userPrefer);
 
 		const handleChange = () => {
 			// logic for checking any user preference(configuration and setting)
-			console.log("handlechange call");
 			if (userPrefer) {
-				console.log("user prefer",userPrefer);
+				// console.log("user prefer",userPrefer);
 				let check = userPrefer === "dark" ? "dark" : "light";
 				setMode(check);
 				if (check === "dark") {
@@ -57,7 +56,7 @@ const useThemeSwitcher = () => {
 		if ( mode === "") {
 			return;
 		}
-		console.log(" inter in mode changer : ", mode);
+		// console.log(" inter in mode changer : ", mode);
 		if (mode === "dark" ) {
 			window.localStorage.setItem("theme", "dark");
 			document.documentElement.classList.add("dark");

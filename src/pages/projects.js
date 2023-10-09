@@ -15,7 +15,7 @@ const projects = () => {
 				<meta name="description" content="any discription"></meta>
 			</Head>
 			{/* content */}
-			<main className=" flex flex-col justify-center items-center ">
+			<main className=" flex flex-col justify-center items-center dark:text-light ">
 				<Layout className=" pt-16">
 					{/* heading of page */}
 					<AnimateHeading text="Projects of all semester" className=" mb-16 "/>

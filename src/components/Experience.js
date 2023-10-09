@@ -14,7 +14,7 @@ const Experience = () => {
 		<h2 className=' text-8xl font-bold mb-16 w-full text-center'>Experience</h2>
 		<div className=' w-[75%] mx-auto relative ' ref={ref} >
 
-			<motion.div className=' absolute left-9 top-0 w-1 h-full bg-dark origin-top'
+			<motion.div className=' absolute left-9 top-0 w-1 h-full bg-dark dark:bg-light origin-top'
 				style={{scaleY:scrollYProgress}}/>
 			<ul className=" flex flex-col justify-between items-start ml-4 ">
 				<Details 

@@ -5,11 +5,11 @@ export const Skill = ({ name, x, y }) => {
 	// console.log(name, x, y);
 	return (
 		<motion.div
-			className=" cursor-pointer flex justify-center items-center font-semibold rounded-full bg-dark text-light shadow-dark py-3 px-6 absolute "
+			className=" cursor-pointer flex justify-center items-center font-semibold rounded-full bg-dark text-light shadow-dark dark:bg-light/90 dark:text-dark  dark:shadow-white py-3 px-6 absolute "
 			whileHover={{ scale: 1.05 }}
 			initial={{ x: 0, y: 0 }}
-			whileInView={{ x: x, y: y }}
-			transition={{ duration: 1.5 }}>
+			whileInView={{ x: x, y: y, transition: {duration: 1.5} }}
+			viewport={{once: true}}>
 			{name}
 		</motion.div>
 	);
@@ -21,11 +21,11 @@ const Skills = () => {
 			<h1 className=" font-bold text-8xl mt-64 w-full text-center">
 				Skills
 			</h1>
-			<div className=" w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight">
+			<div className=" w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark">
 				<motion.div
-					className=" cursor-pointer flex justify-center items-center font-semibold rounded-full p-6 bg-dark text-light shadow-dark"
+					className=" cursor-pointer flex justify-center items-center font-semibold rounded-full p-6 bg-dark text-light dark:bg-light dark:text-dark shadow-dark"
 					whileHover={{ scale: 1.05 }}>
-					web
+					Web
 				</motion.div>
 				<Skill name="c/c++" x="-27vw" y="-10vw" />
 				<Skill name="HTML" x="13vw" y="-2vw" />

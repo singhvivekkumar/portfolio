@@ -62,12 +62,12 @@ const about = () => {
 						</div>
 
 						{/* your profile Image */}
-						<div className=" col-span-3 min-h-full  rounded-2xl border-2 border-solid border-dark p-6 bg-light relative">
-							<div className=" absolute top-0 -right-3 rounded-3xl h-[103%] w-[102%] bg-dark -z-10" />
+						<div className=" col-span-3 min-h-full  rounded-2xl border-2 border-solid border-dark dark:border-light dark:bg-dark p-8 bg-light relative">
+							<div className=" absolute top-0 -right-3 rounded-3xl h-[103%] w-[102%] bg-dark dark:bg-light -z-10" />
 							<FramerImage
 								src={profilePhoto}
 								alt="Vivek Singh"
-								className=" h-auto rounded-2xl bg-gradient-to-tr from-cyan-300 p-4 pb-0 via-orange-200 to-pink-300"
+								className=" h-auto rounded-2xl p-4 pb-0 bg-gradient-to-tr from-cyan-300 dark:from-dark via-orange-200 to-pink-300 dark:to-slate-700"
 								whileHover={{scale:1.05}}
 								transition={{duration:1.7, delay:0.3}}
 							/>
