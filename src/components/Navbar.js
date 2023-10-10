@@ -115,7 +115,7 @@ const Navbar = () => {
 			</div>
 
 			{/* nav for mobile device */}
-			{ isOpen && <motion.div className=" z-10  min-w-[70%] xs:min-w-[90%] flex flex-col justify-between items-center fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-dark/90 dark:bg-light/75 backdrop-blur-md py-24 rounded-xl "
+			{ isOpen && <motion.div className=" z-10  min-w-[70%] xs:min-w-[85%] flex flex-col justify-between items-center fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-dark/90 dark:bg-light/75 backdrop-blur-md py-24 rounded-xl "
 			initial={{ scale:0, opacity:0, x: "-50%", y:"-50%"}}
 			animate={{ scale:1, opacity:1, transition:{ duration: 0.3 } }}>
 				{/* list pages */}

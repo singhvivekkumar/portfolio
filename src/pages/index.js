@@ -17,10 +17,10 @@ export default function Home() {
       <main className=' flex items-center text-dark min-h-screen  dark:text-light'>
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           {/* stucture */}
-          <div className=' flex items-center justify-between w-full lg:flex-col'>
+          <div className=' flex items-center justify-between w-full lg:flex-col '>
 
             {/* Heading */}
-            <div className=' w-1/2 flex flex-col items-center self-center lg:w-full  md:order-2'>
+            <div className=' w-1/2 flex flex-col items-center self-center lg:w-full  md:order-2 lg:space-y-12 md:space-y-0'>
               {/* Heading intro */}
               <AnimateHeading text={`I'm software engineer gradute with passion of problem-sloving.`} className=" !text-6xl !text-left xl:!text-5xl md:!text-3xl sm:!text-2xl "/>
               <p className=' my-4 text-base md:text-sm font-medium md:font-normal '> As a skilled full-stack developer, I am dedicated to turning ideas into innovative applications. 
@@ -28,7 +28,7 @@ export default function Home() {
               </p>
 
               {/* Two Button for more */}
-              <div className=' flex items-center self-start mt-2 space-x-5 lg:self-center '>
+              <div className=' flex items-center self-start mt-2 md:pt-6 space-x-5 lg:self-center '>
                 {/* For resume pdf */}
                 <Link href="/" target={"_blank"}
                   className=' flex items-center self-center text-center text-lg ring-2 ring-transparent ring-offset-0 hover:ring-dark p-2 px-4 rounded-lg font-semibold bg-dark text-light hover:bg-dark/5 active:bg-green-100 hover:text-dark transition-all hover:shadow-inner hover:scale-105 duration-500 ease-out dark:bg-light dark:text-dark hover:dark:ring-light hover:dark:bg-dark hover:dark:text-light' 
@@ -41,8 +41,8 @@ export default function Home() {
             </div>
 
             {/* profile photo */}
-            <div className=' w-1/2 lg:hidden md:inline-block md:w-full md:order-1'>
-              <Image alt='Vivek Singh' className='w-full h-auto dark:brightness-[0.9] dark:contrast-[1.2] ' src={profilePic} 
+            <div className=' w-1/2 lg:hidden md:inline-block md:w-full md:order-1 md:pb-12 '>
+              <Image alt='Vivek Singh' className='w-full h-auto dark:brightness-[0.9] dark:contrast-[1.2] md:scale-125 ' src={profilePic} 
               priority 
               sizes="(min-width: 768px) 100vw, (min-width: 1200px) 50vw, 50vw"/>
             </div>
