@@ -1,5 +1,5 @@
-import Layout from "@/Layout/Layout";
-import AnimateHeading from "@/components/Animate/AnimateHeading";
+import Layout from "@/Container/Layout";
+import AnimateHeading from "@/components/Animate/AnimatedHeading";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";

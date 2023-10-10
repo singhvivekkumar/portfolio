@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Layout from "@/Layout/Layout";
-import AnimateHeading from "@/components/Animate/AnimateHeading";
+import Layout from "@/Container/Layout";
+import AnimateHeading from "@/components/Animate/AnimatedHeading";
 import FeatureArticle from "@/components/Articles/FeatureArticle";
 import articlePagination from "../../public/images/articles/pagination component in reactjs.jpg";
 import articlePagination2 from "../../public/images/articles/form validation in reactjs using custom react hook.png";

@@ -51,7 +51,7 @@ const Navbar = () => {
 		setIsOpen(!isOpen);
 	}
 	return (
-		<header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative ">
+		<header className="w-full px-32 md:px-12 sm:px-8 py-10 font-medium flex items-center justify-between dark:text-light relative ">
 
 			{/* Hamburger menu */}
 			<button className="  flex-col justify-center items-center hidden lg:flex " onClick={handleClick}>
@@ -117,7 +117,7 @@ const Navbar = () => {
 			{/* nav for mobile device */}
 			{ isOpen && <motion.div className=" z-10  min-w-[70%] xs:min-w-[90%] flex flex-col justify-between items-center fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-dark/90 dark:bg-light/75 backdrop-blur-md py-24 rounded-xl "
 			initial={{ scale:0, opacity:0, x: "-50%", y:"-50%"}}
-			animate={{ scale:1, opacity:1, transition:{ duration: 0.3, delay:0.2} }}>
+			animate={{ scale:1, opacity:1, transition:{ duration: 0.3 } }}>
 				{/* list pages */}
 			<nav className=" flex flex-col justify-center items-center text-lg">
 				<CustomeMobileLink href="/" title="Home" className="" toggle={handleClick} />
