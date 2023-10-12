@@ -20,7 +20,7 @@ const projects = () => {
 					{/* heading of page */}
 					<AnimateHeading text="Projects of all semester" className=" mb-16 "/>
 
-					{/* list of feature prtoject */}
+					{/* list of feature prtoject or simple project */}
 					<div className=" grid grid-cols-12 gap-24 gap-y-36 ">
 
 						<div className=" col-span-12 ">

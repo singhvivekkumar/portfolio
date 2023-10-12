@@ -10,7 +10,7 @@ const FramerImage = motion(Image);
 const FeatureCard = ({ type, title, summary, img, link, github}) => {
   return (
 	<article className=' relative w-full flex items-center justify-center p-8 rounded-3xl border border-solid border-dark dark:border-light bg-light dark:bg-dark shadow-2xl'>
-		<div className=" absolute top-0 -right-3 rounded-[2.3rem] rounded-br-[1.8rem] h-[103%] w-[101%] bg-dark dark:bglight -z-10" />
+		<div className=" absolute top-0 -right-3 rounded-[2.3rem] rounded-br-[1.8rem] h-[103%] w-[101%] bg-dark dark:bg-light -z-10" />
 
 		<Link href={link} target="_blank" className=' w-1/2 cursor-pointer inline-block overflow-hidden rounded-lg'>
 			<FramerImage alt={title} src={img} className=' w-full h-auto'
