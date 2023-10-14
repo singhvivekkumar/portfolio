@@ -27,13 +27,13 @@ const about = () => {
 					{/* Heading */}
 					<AnimateHeading
 						text={"Passion for coding"}
-						className={" !text-6xl mb-12"}
+						className={" !text-6xl mb-12 lg:!text-7xl md:!text-6xl xs:!text-3xl sm:mb-8 "}
 					/>
 
 					{/* about page structure */}
-					<div className=" w-full grid grid-cols-8 gap-16 ">
+					<div className=" w-full grid grid-cols-8 gap-16 sm:gap-8 ">
 						{/* introduction about self */}
-						<div className=" col-span-3 flex flex-col items-center justify-center gap-4 ">
+						<div className=" col-span-3 flex flex-col items-center justify-center gap-4 md:order-2 md:col-span-8 lg:col-span-4 ">
 							<h1 className=" text-lg font-bold uppercase text-dark/70 dark:text-light/75">
 								Introduction
 							</h1>
@@ -62,12 +62,12 @@ const about = () => {
 						</div>
 
 						{/* your profile Image */}
-						<div className=" col-span-3 min-h-full  rounded-2xl border-2 border-solid border-dark dark:border-light dark:bg-dark p-8 bg-light relative">
+						<div className=" col-span-3 h-min rounded-2xl border-2 border-solid border-dark dark:border-light dark:bg-dark p-8 md:p-6 bg-light relative md:order-1 md:col-span-8 lg:col-span-4 ">
 							<div className=" absolute top-0 -right-3 rounded-3xl h-[103%] w-[102%] bg-dark dark:bg-light -z-10" />
 							<FramerImage
 								src={profilePhoto}
 								alt="Vivek Singh"
-								className=" h-auto rounded-2xl p-4 pb-0 bg-gradient-to-tr from-cyan-300 dark:from-dark via-orange-200 to-pink-300 dark:to-slate-700"
+								className=" h-auto w-full rounded-2xl p-4 pb-0 bg-gradient-to-tr from-cyan-300 dark:from-dark via-orange-200 to-pink-300 dark:to-slate-700"
 								whileHover={{scale:1.05}}
 								transition={{duration:1.7, delay:0.3}}
 								priority 
@@ -76,18 +76,18 @@ const about = () => {
 						</div>
 
 						{/* number which make impact */}
-						<div className=" col-span-2 flex flex-col items-end justify-between ">
+						<div className=" col-span-2 flex flex-col items-end justify-between md:order-3 lg:col-span-8 lg:flex-row lg:items-center">
 							<div className=" flex flex-col items-end justify-center ">
-								<span className=" inline-block text-7xl font-bold dark:text-light/75"><AnimatedNumbers value={50}/>+</span>
-								<h1 className=" text-xl font-medium text-dark/75 dark:text-light/75  capitalize">client</h1>
+								<span className=" inline-block text-7xl font-bold dark:text-light/75 md:text-5xl sm:text-4xl "><AnimatedNumbers value={50}/>+</span>
+								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75  capitalize">client</h1>
 							</div>
 							<div className=" flex flex-col items-end justify-center ">
-								<span className=" inline-block text-7xl dark:text-light/75 font-bold"><AnimatedNumbers value={40}/>+</span>
-								<h1 className=" text-xl font-medium text-dark/75 dark:text-light/75 capitalize">client</h1>
+								<span className=" inline-block text-7xl dark:text-light/75 font-bold md:text-5xl sm:text-4xl"><AnimatedNumbers value={40}/>+</span>
+								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75 capitalize">client</h1>
 							</div>
 							<div className=" flex flex-col items-end justify-center">
-								<span className=" inline-block text-7xl font-bold dark:text-light/75"><AnimatedNumbers value={570}/>+</span>
-								<h1 className=" text-xl font-medium text-dark/75 dark:text-light/75 capitalize">client</h1>
+								<span className=" inline-block text-7xl font-bold dark:text-light/75 md:text-5xl sm:text-4xl"><AnimatedNumbers value={570}/>+</span>
+								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75 capitalize">client</h1>
 							</div>
 						</div>
 					</div>
