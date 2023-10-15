@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Details = ({ type, time, place, info }) => {
 	const ref = useRef(null);
 	return (
-		<li ref={ref} className="  my-8 first:mt-0 last:mb-0 mx-auto w-[60%] flex flex-col justify-between">
+		<li ref={ref} className="  my-8 first:mt-0 last:mb-0 mx-auto w-[60%] flex flex-col justify-between md:w-[80%] xs:w-[90%]">
 			<ListIcon reference={ref} />
 			<motion.div
 				initial={{y:50}}

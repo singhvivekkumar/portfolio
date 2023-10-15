@@ -30,7 +30,13 @@ module.exports = {
 			},
 			backgroundImage: {
 				circularLight: " repeating-radial-gradient( rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 100px)",
-				circularDark: " repeating-radial-gradient( rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 100px)"
+				circularDark: " repeating-radial-gradient( rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 100px)",
+				circularLightLg: " repeating-radial-gradient( rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 80px)",
+				circularDarkLg: " repeating-radial-gradient( rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 80px)",
+				circularLightSm: " repeating-radial-gradient( rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 60px)",
+				circularDarkSm: " repeating-radial-gradient( rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 60px)",
+				circularLightXs: " repeating-radial-gradient( rgba(0,0,0,0.4) 2px, #f5f5f5 5px, #f5f5f5 40px)",
+				circularDarkXs: " repeating-radial-gradient( rgba(255,255,255,0.4) 2px, #1b1b1b 5px, #1b1b1b 40px)"
 			},
 		},
 		screens: {
