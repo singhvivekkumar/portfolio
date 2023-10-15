@@ -10,6 +10,7 @@ import article2 from "../../public/images/articles/smooth scrolling in reactjs.p
 import article3 from "../../public/images/articles/What is higher order component in React.jpg";
 import article4 from "../../public/images/articles/What is Redux with easy explanation.png";
 import LiArticles from "@/components/Articles/LiArticles";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const articles = () => {
 	return (
@@ -19,14 +20,15 @@ const articles = () => {
 				<title>VS | Articles Page</title>
 				<meta name="description" content="any discription"></meta>
 			</Head>
+			<TransitionEffect/>
 			<main className=" w-full mb-16 flex flex-col justify-center items-center overflow-hidden dark:text-light">
 				<Layout className=" pt-16 ">
 					<AnimateHeading
 						text="This is articles list"
-						className=" mb-16"
+						className=" mb-16 lg:!text-7xl sm:!mb-6 sm:!text-6xl xs:!text-4xl "
 					/>
 
-					<ul className=" grid grid-cols-2 gap-16">
+					<ul className=" grid grid-cols-2 gap-16 lg:gap-8 md:gap-4 md:grid-cols-1 md:gap-y-16 ">
 						<FeatureArticle
 							title="Build A Custom Pagination Component In Reactjs From Scratch"
 							summary="Learn how to build a custom pagination component in ReactJS from scratch. 

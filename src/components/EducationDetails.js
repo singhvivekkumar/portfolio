@@ -15,13 +15,13 @@ const Details = ({ type, time, place, info }) => {
 					delay: 0.2
 				}}
 			>
-			<h3 className=" capitalize font-bold text-2xl ">
+			<h3 className=" capitalize font-bold text-2xl sm:text-xl xs:text-lg ">
 				{type}
 			</h3>
-			<span className=" capitalize text-dark/75 dark:text-light/75 font-medium">
+			<span className=" capitalize text-dark/75 dark:text-light/75 font-medium xs:text-sm">
 				{time} | {place}
 			</span>
-			<p className=" font-medium w-full">{info}</p>
+			<p className=" font-medium w-full xs:text-sm">{info}</p>
 			</motion.div>
 		</li>
 	);

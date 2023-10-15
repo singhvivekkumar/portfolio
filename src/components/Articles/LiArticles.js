@@ -28,7 +28,7 @@ const MovingImg = ({ title, img, link }) => {
 		<Link href={link} target="_blank" 
 			onMouseMove={handleMouse}
 			onMouseLeave={handleMouseLeave}>
-			<h2 className=" font-semibold capitalize text-xl hover:underline">
+			<h2 className=" font-semibold capitalize text-xl hover:underline xs:text-lg xs:font-medium">
 				{title}
 			</h2>
 			<FramerImage
@@ -44,12 +44,12 @@ const MovingImg = ({ title, img, link }) => {
 
 const LiArticles = ({ img, title, date, link }) => {
 	return (
-		<motion.li className=" relative p-4 py-6 my-4 flex items-center justify-between rounded-xl bg-light text-dark dark:bg-dark dark:text-light first:mt-0 border border-solid border-dark dark:border-light border-r-4 border-b-4"
+		<motion.li className=" relative p-4 py-6 my-4 flex items-center justify-between rounded-xl bg-light text-dark dark:bg-dark dark:text-light first:mt-0 border border-solid border-dark dark:border-light border-r-4 border-b-4 sm:flex-col"
 			initial={{y:200}}
 			whileInView={{y:0, transition:{ duration:0.5, ease:"easeInOut"}}}
 			viewport={{once:true}}>
 			<MovingImg img={img} title={title} link={link} />
-			<span className=" text-primary dark:text-primaryDark font-semibold pl-2">{date}</span>
+			<span className=" text-primary dark:text-primaryDark font-semibold pl-2 sm:self-start sm:pl-0">{date}</span>
 		</motion.li>
 	);
 };

@@ -9,6 +9,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import { motion } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 // to use a component in framer motion... make it 
 const FramerImage = motion(Image);
@@ -21,6 +22,7 @@ const about = () => {
 				<title>VS | About Page</title>
 				<meta name="description" content="any discription"></meta>
 			</Head>
+			<TransitionEffect/>
 			{/* content */}
 			<main className=" flex flex-col items-center justify-center dark:text-light ">
 				<Layout className="pt-10">
