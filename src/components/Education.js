@@ -18,23 +18,20 @@ const Education = () => {
 				style={{scaleY:scrollYProgress}}/>
 			<ul className=" flex flex-col justify-between items-start ml-4 ">
 				<EducationDetails 
-					type="Web Development Intern" 
-					time="2020 - Present"
-					place="Bangalore, India"
-					info="I have worked as a web development intern at Tech Martin. I have worked on various projects such as
-					I have worked as a web development intern at Tech Martin. I have worked as a web development intern at Tech Martin." />
+					type="Bachelor of Technology" 
+					time="2023"
+					place="Patna, Bihar, India"
+					info="I am graduated from BP Mandal College of Engineering. I have completed my bachelor degree in computer science and technology with 8.14 CGPA. I have studied core concept of computer science like computer organization , theory of computer, compiler design, operating system and database management system" />
 				<EducationDetails 
-					type="Web Development Intern" 
-					time="2020 - Present"
-					place="Bangalore, India"
-					info="I have worked as a web development intern at Tech Martin. I have worked on various projects such as
-					I have worked as a web development intern at Tech Martin. I have worked as a web development intern at Tech Martin." />
+					type="Intermediate" 
+					time="2018"
+					place="Ara, Bihar, India"
+					info="I have completed my high schooling from TOWN INTER STARIYA SCHOOL with first division. In the intermediate, Main subjects are Physics, Chemistry and Mathematics then addational subjects are Hindi and English. " />
 				<EducationDetails 
-					type="Web Development Intern" 
-					time="2020 - Present"
-					place="Bangalore, India"
-					info="I have worked as a web development intern at Tech Martin. I have worked on various projects such as
-					I have worked as a web development intern at Tech Martin. I have worked as a web development intern at Tech Martin." />
+					type="Matriculation" 
+					time="2016"
+					place="Patna, Bihar, India"
+					info="I did my matriculation from MOTHER'S INTERNATIONAL ACADEMY with 8.8 CGPA." />
 				
 			</ul>
 		</div>

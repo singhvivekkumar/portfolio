@@ -19,44 +19,20 @@ const Experience = () => {
 			<ul className=" flex flex-col justify-between items-start ml-4 xs:ml-2 ">
 				<Details 
 					position="Web Development Intern" 
-					campany="Tech Martin" 
+					campany="Code caluse" 
 					companyLink="/about"
-					time="2020 - Present"
-					address="Bangalore, India"
-					work="I have worked as a web development intern at Tech Martin. I have worked on various projects such as
-					I have worked as a web development intern at Tech Martin. I have worked as a web development intern at Tech Martin." />
+					time="Aug 2023 - Sept 2023"
+					address="remote"
+					work="I have develop three website. First one is to-list after that  i have developed portfolio and last dashboard UI which is showing details about company where also authentication is added. The mainly focused on css styling and design part for any websites." />
 				<Details 
 					position="Web Development Intern" 
 					campany="Tech Martin" 
 					companyLink="/about"
-					time="2020 - Present"
-					address="Bangalore, India"
+					time="Oct 2021 - Feb 2022"
+					address="remote"
 					work="I have worked as a web development intern at Tech Martin. I have worked on various projects such as
 					I have worked as a web development intern at Tech Martin. I have worked as a web development intern at Tech Martin." />
-				<Details 
-					position="Web Development Intern" 
-					campany="Tech Martin" 
-					companyLink="/about"
-					time="2020 - Present"
-					address="Bangalore, India"
-					work="I have worked as a web development intern at Tech Martin. I have worked on various projects such as
-					I have worked as a web development intern at Tech Martin. I have worked as a web development intern at Tech Martin." />
-				<Details 
-					position="Web Development Intern" 
-					campany="Tech Martin" 
-					companyLink="/about"
-					time="2020 - Present"
-					address="Bangalore, India"
-					work="I have worked as a web development intern at Tech Martin. I have worked on various projects such as
-					I have worked as a web development intern at Tech Martin. I have worked as a web development intern at Tech Martin." />
-				<Details 
-					position="Web Development Intern" 
-					campany="Tech Martin" 
-					companyLink="/about"
-					time="2020 - Present"
-					address="Bangalore, India"
-					work="I have worked as a web development intern at Tech Martin. I have worked on various projects such as
-					I have worked as a web development intern at Tech Martin. I have worked as a web development intern at Tech Martin." />
+				
 				
 			</ul>
 		</div>
