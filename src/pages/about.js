@@ -36,30 +36,22 @@ const about = () => {
 					<div className=" w-full grid grid-cols-8 gap-16 sm:gap-8 ">
 						{/* introduction about self */}
 						<div className=" col-span-3 flex flex-col items-center justify-center gap-4 md:order-2 md:col-span-8 lg:col-span-4 ">
-							<h1 className=" text-lg font-bold uppercase text-dark/70 dark:text-light/75">
+							<h1 className=" text-3xl lg:text-2xl sm:text-lg font-bold uppercase text-dark/70 dark:text-light/75">
 								Introduction
 							</h1>
-							<p className=" font-medium ">
-								I am software engineer graduate, with a passion
+							<p className=" font-medium  ">
+								I am computer science graduate, with a passion
 								for coding and problem-solving. I am well
 								acquainted with react js, tailwindCSS, node js
 								and MySQL. I am an eager learner constantly
 								striving to improve my skills. I am also a team
 								player and enjoy collaborating on project.
 							</p>
-							<p className=" font-medium">
-								I have strong understanding in core of computer
-								science. I would like to tell about my project
-								where I showcase my experience that reflect
-								myself. Thank you for reading about me and have
-								a good day
+							<p className=" font-medium ">
+							My journey in web development has led me to work on a diverse range of projects, from e-commerce platforms to content management systems. I thrive on staying updated with the latest web technologies and best practices, ensuring that I can deliver not only beautiful but also highly functional web applications.
 							</p>
-							<p className=" font-medium">
-								I have strong understanding in core of computer
-								science. I would like to tell about my project
-								where I showcase my experience that reflect
-								myself. Thank you for reading about me and have
-								a good day
+							<p className=" font-medium ">
+							I'm excited to discuss how my skills and experiences align with the requirements of this role and how I can contribute to the success of your team. Thank you for considering me for this opportunity.
 							</p>
 						</div>
 
@@ -80,16 +72,16 @@ const about = () => {
 						{/* number which make impact */}
 						<div className=" col-span-2 flex flex-col items-end justify-between md:order-3 lg:col-span-8 lg:flex-row lg:items-center">
 							<div className=" flex flex-col items-end justify-center ">
-								<span className=" inline-block text-7xl font-bold dark:text-light/75 md:text-5xl sm:text-4xl "><AnimatedNumbers value={50}/>+</span>
-								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75  capitalize">client</h1>
+								<span className=" inline-block text-7xl font-bold dark:text-light/75 md:text-5xl sm:text-4xl "><AnimatedNumbers value={22}/>+</span>
+								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75  capitalize">projects</h1>
 							</div>
 							<div className=" flex flex-col items-end justify-center ">
-								<span className=" inline-block text-7xl dark:text-light/75 font-bold md:text-5xl sm:text-4xl"><AnimatedNumbers value={40}/>+</span>
-								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75 capitalize">client</h1>
+								<span className=" inline-block text-7xl dark:text-light/75 font-bold md:text-5xl sm:text-4xl"><AnimatedNumbers value={10000}/>+</span>
+								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75 capitalize">line of codes</h1>
 							</div>
 							<div className=" flex flex-col items-end justify-center">
-								<span className=" inline-block text-7xl font-bold dark:text-light/75 md:text-5xl sm:text-4xl"><AnimatedNumbers value={570}/>+</span>
-								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75 capitalize">client</h1>
+								<span className=" inline-block text-7xl font-bold dark:text-light/75 md:text-5xl sm:text-4xl"><AnimatedNumbers value={283}/>+</span>
+								<h1 className=" text-xl sm:text-lg xs:text-base font-medium text-dark/75 dark:text-light/75 capitalize">number of commit</h1>
 							</div>
 						</div>
 					</div>
