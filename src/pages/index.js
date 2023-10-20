@@ -24,7 +24,7 @@ export default function Home() {
             {/* Heading */}
             <div className=' w-1/2 flex flex-col items-center self-center lg:w-full  md:order-2 lg:space-y-12 md:space-y-0'>
               {/* Heading intro */}
-              <AnimateHeading text={`I'm software engineer graduate with passion of problem-sloving.`} className=" !text-6xl !text-left xl:!text-5xl md:!text-3xl sm:!text-2xl "/>
+              <AnimateHeading text={`I'm computer science graduate with passion of problem-sloving.`} className=" !text-6xl !text-left xl:!text-5xl md:!text-3xl sm:!text-2xl "/>
               <p className=' my-4 text-base md:text-sm font-medium md:font-normal '> 
               As a skilled full-stack developer, I am dedicated to turning ideas into innovative applications. 
               Explore my latest projects and articles, showcasing my expertise in React.js and web development.
@@ -33,7 +33,7 @@ export default function Home() {
               {/* Two Button for more */}
               <div className=' flex items-center self-start mt-2 md:pt-6 space-x-5 lg:self-center '>
                 {/* For resume pdf */}
-                <Link href="/" target={"_blank"}
+                <Link href="/Vivek_Singh_Resume_2023.pdf" target={"_blank"}
                   className=' flex items-center self-center text-center text-lg ring-2 ring-transparent ring-offset-0 hover:ring-dark p-2 px-4 rounded-lg font-semibold bg-dark text-light hover:bg-dark/5 active:bg-green-100 hover:text-dark transition-all hover:shadow-inner hover:scale-105 duration-500 ease-out dark:bg-light dark:text-dark hover:dark:ring-light hover:dark:bg-dark hover:dark:text-light' 
                 >Resume <LinkArrow className={" w-6 ml-1 "}/></Link>
                 {/* send email to my address */} 

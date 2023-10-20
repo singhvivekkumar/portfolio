@@ -29,7 +29,7 @@ const about = () => {
 					{/* Heading */}
 					<AnimateHeading
 						text={"Passion for coding"}
-						className={" !text-6xl mb-12 lg:!text-7xl md:!text-6xl xs:!text-3xl sm:mb-8 "}
+						className={" mb-12 lg:!text-7xl md:!text-6xl xs:!text-3xl sm:mb-8 "}
 					/>
 
 					{/* about page structure */}

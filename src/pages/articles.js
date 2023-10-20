@@ -24,8 +24,8 @@ const articles = () => {
 			<main className=" w-full mb-16 flex flex-col justify-center items-center overflow-hidden dark:text-light">
 				<Layout className=" pt-16 ">
 					<AnimateHeading
-						text="This is articles list"
-						className=" mb-16 lg:!text-7xl sm:!mb-6 sm:!text-6xl xs:!text-4xl "
+						text="Insider Perspectives and Expertise"
+						className=" mb-16 xl:!text-7xl lg:!text-6xl sm:!mb-6 sm:!text-5xl xs:!text-4xl "
 					/>
 
 					<ul className=" grid grid-cols-2 gap-16 lg:gap-8 md:gap-4 md:grid-cols-1 md:gap-y-16 ">
