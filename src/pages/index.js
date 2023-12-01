@@ -18,16 +18,18 @@ export default function Home() {
       <TransitionEffect/>
       <main className=' flex items-center text-dark min-h-screen  dark:text-light'>
         <Layout className="pt-0 md:pt-16 sm:pt-8">
+
           {/* stucture */}
           <div className=' flex items-center justify-between w-full lg:flex-col '>
 
             {/* Heading */}
             <div className=' w-1/2 flex flex-col items-center self-center lg:w-full  md:order-2 lg:space-y-12 md:space-y-0'>
+              
               {/* Heading intro */}
               <AnimateHeading text={`I'm computer science graduate with passion of problem-sloving.`} className=" !text-6xl !text-left xl:!text-5xl md:!text-3xl sm:!text-2xl "/>
               <p className=' my-4 text-base md:text-sm font-medium md:font-normal '> 
               As a skilled full-stack developer, I am dedicated to turning ideas into innovative applications. 
-              Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              Explore my latest projects and articles, showcasing my knowledge in React.js and web development.
               </p>
 
               {/* Two Button for more */}
