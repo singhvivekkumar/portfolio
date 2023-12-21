@@ -36,7 +36,7 @@ const projects = () => {
 								title="Get the Session"
 								summary="An appointment scheduling system is a web application that allows users to book appointments with consultants . The goal is to provide user with seamless way to view available time slots and book appointment, similiar to paltform like calendly. It also provide an interface for consultants to manage their availability and appointments."
 								img={getTheSession}
-								link=""
+								link="https://get-the-session.vercel.app/"
 								github="https://github.com/singhvivekkumar/session-scheduler"
 
 							/>
