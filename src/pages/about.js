@@ -51,7 +51,7 @@ const about = () => {
 							My journey in web development has led me to work on a diverse range of projects, from e-commerce platforms to content management systems. I thrive on staying updated with the latest web technologies and best practices, ensuring that I can deliver not only beautiful but also highly functional web applications.
 							</p>
 							<p className=" font-medium ">
-							I'm excited to discuss how my skills and experiences align with the requirements of this role and how I can contribute to the success of your team. Thank you for considering me for this opportunity.
+							I&apos;m excited to discuss how my skills and experiences align with the requirements of this role and how I can contribute to the success of your team. Thank you for considering me for this opportunity.
 							</p>
 						</div>
 
